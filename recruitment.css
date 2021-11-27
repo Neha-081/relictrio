@@ -215,4 +215,103 @@ vertical-align:baseline;
     margin-top: -70px;
 }.firstpink span{
     font-weight: 800;
+}.stepbystep{
+    padding: 150px 100px 0 150px;
+}.stepbystep h6{
+    color:rgb(60, 80, 224);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    line-height:14px;
+    font-size: 14px;
+    letter-spacing:2px;
+    font-weight:bolder;
+    text-align: center;
+}.stepbystep h1{
+    text-align: center;
+    color:rgb(0, 0, 92);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    line-height:44px;
+    font-size: 32px;
+    font-weight:bolder;
+    margin-top: 15px;
+    /* width: 550px; */
+   
+}.sixbox{
+    margin-top: 80px;
+    display: flex;
+}.sixbox img{
+margin-left: -15px;
+    padding: 60px 20px 20px 20px;
+    height: 30px;
+    width: 30px;
+}.sixbox h1{
+    text-align: left;
+    color:rgb(0, 0, 92);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    line-height:44px;
+    font-size: 32px;
+    font-weight:bolder;
+    margin-top: 15px;
+    /* width: 550px; */
+   
+}.sixbox p{
+    color:rgb(0, 0, 92);
+    font-size:17px;
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    line-height:30px;
+    letter-spacing:0.24px;
+    font-weight:600;
+    text-align: left;
+
+}.sixbox div{
+    width: 150px;
+    padding: 40px;
+    /* border-left: 1px solid rgb(226, 219, 219); */
+
+}.sixbox div:hover {
+    background-color: #ff5670;
+    border-radius: 20px;
+    color: white;
+}.blueebox{
+border-radius: 80px;
+border-bottom-right-radius: 0px;
+    padding: 60px 20px 60px 20px;
+   margin: 80px 160px 0 160px;
+    background-color: #3c50e0;
+
+}
+.blueebox h6{
+    margin: 15px 0 30px 0;
+    color:rgb(141, 164, 255);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing:0.5px;
+    text-align: center;
+}.blueebox h2{
+    margin: 15px 0 30px 0;
+    color:rgb(255, 255, 255);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 400;
+    text-align: center;
+}.blueebox p{
+    color:rgb(255, 255, 255);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing:0.214286px;
+    font-weight: 400;
+    text-align: center;
+}.blueebox button{
+    margin:60px 0 0 500px;
+    color: #3c50e0;
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    background-color: #ffffff;
+    border: none;
+    font-size: 16px;
+    padding: 20px;
+    font-weight: bolder;
+    border-radius: 8px;
+    width: 170px;
 }
