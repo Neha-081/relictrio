@@ -3,10 +3,8 @@ body{
 }
 #navbar{
     position: fixed;
-    /* width: 100%; */
     top: 0;
 background-color: white;
-
     display: flex;
     justify-content: space-around;
     padding: 10px 129px 20px 200px;
@@ -31,7 +29,7 @@ background-color: white;
 #navbar p:hover{
     text-shadow: 0 4px 4px rgb(0 0 0 / 25%);
 }
-#navbar button, #global button{
+#navbar button, #global button, .whyus button{
     background-color: #3c50e0;
   color: white;
     padding: 20px 10px;
@@ -49,12 +47,11 @@ background-color: white;
 #navbar button:hover, #global button:hover{
     background-color: rgb(77, 77, 245);
 }.lineargradient{
-    background-image: linear-gradient(white,#e7f0fc);
-    max-height: 1200px;
+  background-color: #e7f0fc;
+    max-height: 770px;
 }
 #global{
-    margin-top: 100px;
-    padding: 10px 120px 0px 200px;
+    padding: 200px 120px 0px 200px;
 }
 .global{
     display: flex;
@@ -80,74 +77,71 @@ color: #00005C;
   
     font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }.global img{
-    margin: -100px 0 0 290px;
-}
-.threebox{
-    display: flex;
-    justify-content: space-between;
-
-
-}.threebox div{
-    width: 900px;
-    margin-right: 100px;
-}
-.threebox h4{
-    font-size: 20px;
-    color: #00005C;
-    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
-}.threebox p{
-    margin-top: 10px;
-    font-size: 16px;
-    color: #536083;
-    line-height: 22px;
-    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
-}.threebox img{
-    height: 30px;
-    width: 30px;
-   float: left;
- margin-left: -50px;
-}.semihalf{
-
-    padding: 100px 50px 80px 50px;
-    background-color: white;
-    width: 75%;
-    margin: auto;
-    margin-top: 120px;
+    margin: -100px 0 0 150px;
+}.smallbox{
+    background-color: rgb(255, 251, 251);
     border-radius: 15px;
-}.semihalf h5{
-    text-align: center;
-    color:rgb(60, 80, 224);
-    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
-    font-size:16px;
-}.semihalf h2{
-    margin-top: 15px;
-    text-align: center;
-    color:rgb(0, 0, 92);
-    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
-    font-size:32px;
-}
-.semiinside{
-    margin-top: 100px;
+    width: 550px;
     display: flex;
-    justify-content: space-between;
-}.semiinside div{
-    width: 280px;
-    text-align: center;
-}.semiinside h3{
-    color:rgb(0, 0, 92);
+    margin: 50px 50px 0 500px;
+}.smallbox img{
+   margin: 0 35px 0 0;
+    height: 180px;
+    width: 200px;
+}.smallbox p{
+    color:rgb(4, 8, 15);
+    font-weight: 600;
     font-size: 20px;
-    line-height:28px;
+    line-height: 32px;
     font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
-}.semiinside p{
-    margin-top: 15px;
+}.doc{
+    margin-top: 200px;
+    display: flex;
+
+}.doc div:nth-child(n+2){
+    margin: 70px 60px 0 0;
+  padding: 30px 20px;
+    width: 250px;
+}.doctwo div{
+    margin: 70px 60px 0 0;
+    padding: 30px 20px;
+    max-height: 300px;
+      width: 250px;
+} .docthree div{
+    margin: 70px 60px 0 0;
+    padding: 30px 20px;
+    max-height: 400px;
+      width: 250px;
+}
+.whyus{
+    margin: 0 0px 0 140px;
+    width: 600px;
+}.one p, .two p, .three p, .four p, .five p, .six p{
     color:rgb(83, 96, 131);
     font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
-    font-size: 14px;
-    line-height:22px;
-vertical-align:baseline;
-}.whyus{
-    margin: 80px 30px 0 140px;
-    width: 600px;
+    line-height:20px;
+    font-size:15px;
+    font-weight:400;
+}.one h3, .two h3, .three h3, .four h3,.five h3, .six h3{
+    color:#00005C;
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size:28px;
+    letter-spacing: 2px;
+line-height: 30px;
+    font-weight:600;
+}
+.one:hover{
+ border-bottom: 5px solid rgb(214, 95, 115);
+}.two:hover{
+    border-bottom: 5px solid rgb(233, 211, 18);
+}.three:hover{
+    border-bottom: 5px solid rgb(233, 211, 18);
+}.four:hover{
+    border-bottom: 5px solid rgb(47, 59, 233);
+}.five:hover{
+    border-bottom: 5px solid rgb(9, 160, 4);
+}.six:hover{
+    border-bottom: 5px solid rgb(214, 95, 115);
 }
 .whyus h6{
     color:rgb(60, 80, 224);
@@ -168,10 +162,157 @@ vertical-align:baseline;
     letter-spacing:0.142857px;
     font-weight:400;
 
-}.term{
+}.doctwo, .docthree{
+    display: flex;
+}.three img, .four img, .five img, .six img{
+    height: 50px;
+    width: 50px;
+}
+.doc img{
+    height: 50px;
+    width: 50px;
+}.doctwo > .three{
+margin-left: 390px;
+}
+.docthree > .five{
+    margin-left: 750px;
+    }
+.term{
     background-color: #fff1f2;
 
+}.pinkboxmain{
+    display: flex;
+    border-radius: 80px;
+border-bottom-right-radius: 0px;
+border-top-left-radius: 0px;
+    padding: 120px 90px 120px 90px;
+   margin: 80px 160px 0 160px;
+    background-color: #ff5670;
+}.pinkbox{
+    width: 540px;
 }
+.pinkbox h4{
+    color: rgb(255, 188, 189);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    line-height:14px;
+    font-size: 15px;
+letter-spacing: 2px;
+    font-weight:bolder;
+
+}.pinkbox h1{
+    color: rgb(255, 255, 255);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    line-height:44px;
+    font-size: 32px;
+    margin:25px 0px 15px;
+}.pinkbox p{
+    color:rgb(235, 243, 255);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    line-height:28px;
+    font-size: 17px;
+    margin:0px 0px 35px;
+}.pinkbox label{
+    color:rgb(255, 188, 189);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    line-height:14px;
+    letter-spacing: 2px;
+    font-size: 12px;
+    margin:0px 135px 40px 0px;
+    font-weight: 600;
+}.pinkbox select{
+    width: 170px;
+    margin: 20px 50px 0 0;
+    padding-bottom: 8px;
+    color: white;
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    line-height:14px;
+    letter-spacing: 2px;
+    font-size: 18px;
+    background-color:#ff5670 ;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+}.pinkbox button{
+    margin:30px 0 0 0px;
+    color: #3c50e0;
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    background-color: #ffffff;
+    border: none;
+    font-size: 14px;
+    padding: 20px;
+    font-weight: bolder;
+    border-radius: 8px;
+    width: 170px;
+}.pinksidebox{
+    margin-left: 130px;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: white;
+}.pinksidebox h3{
+    color:rgb(0, 0, 92);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    line-height:16px;
+    font-size: 16px;
+    text-align: center;
+}.pinksidebox h4{
+    text-align: center;
+    color:rgb(0, 0, 92);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    line-height:16px;
+    font-size: 16px;
+}
+.pinksidebox span{
+    font-weight:bolder;
+}.pinksidebox h1{
+    color:rgb(60, 80, 224);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    line-height:42px;
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+}.pinksidebox p{
+    color:rgb(83, 96, 131);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    line-height:25px;
+    font-size: 15px;
+    font-weight: 400;
+}.pinksidebox cost{
+    color:rgb(0, 0, 92);
+    font-weight: bolder;
+}.pinksidebox h6{
+    color:rgb(83, 96, 131);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    line-height:25px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}.pinksidebox button{
+    margin:0px 0 0 40px;
+    color: #0e26dd;
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    background-color: #ffffff;
+    border: 1px solid rgb(231, 225, 225);
+    font-size: 14px;
+    padding: 20px;
+    font-weight: bolder;
+    border-radius: 8px;
+    width: 170px;
+}.pinksidebox h5{
+    color:rgb(51, 51, 51);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    line-height:15px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
 .longterm{
 
     margin: 70px 0;
