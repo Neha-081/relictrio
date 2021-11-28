@@ -66,6 +66,7 @@ left: 120px;
 font-family :
 Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
 font-size: 52px;
+letter-spacing: 2px;
 line-height: 70px;
 color: #00005C;
 }.global p{
@@ -314,4 +315,240 @@ border-bottom-right-radius: 0px;
     font-weight: bolder;
     border-radius: 8px;
     width: 170px;
+}.blogs{
+    margin: 100px 160px 0 160px;
+    display: flex;
+    justify-content: space-between;
+}.blogs h3{
+    margin-top: 120px;
+    color:rgb(60, 80, 224);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing:2px  ;
+}.blogs h1{
+    width: 300px;
+    color:rgb(0,0,92);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 32px;
+    line-height: 44px;
+    margin:25px 50px 40px 0;
+}.blogs button{
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    color:rgb(60, 80, 224);
+    background-color: white;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing:0.214286px;
+    padding:20px 45px;
+    border: 1px solid rgb(228, 220, 220);
+    border-radius: 9px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}.blogs button:hover{
+    box-shadow:0px 0px 4px 1px rgb(199, 197, 197) ;
+}
+.imageblogs img{
+    width: 350px;
+    border-radius: 15px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.blogs h6{
+    margin: 15px 0 30px 30px;
+    color:rgb(0,0,238);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 13px;
+    line-height: 13px;
+    letter-spacing:0.5px;
+    text-transform: uppercase;
+}.blogs h2{
+    width: 300px;
+    color:rgb(0,0,92);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    margin:25px 50px 40px 30px;
+}.blogs p{
+    color:rgba(189, 189, 194, 0.699);
+    letter-spacing: 2px;
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin:25px 50px 0px 30px;
+}.blogs h4{
+    font-weight: normal;
+    color:rgb(1, 1, 153);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 15px;
+    margin:10px 50px 40px 30px;
+}.permanent{
+    margin: 100px 160px 0 160px;
+    display: flex;
+    justify-content: space-around;
+}.permanent h3{
+    color:rgb(60, 80, 224);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}.permanent h1{
+    color:rgb(0, 0, 92);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 600;
+    margin:25px 0px 15px;
+}.permanent p{
+    color:rgb(83, 96, 131);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.45px;
+    font-weight: 400;
+    margin:0px 0px 15px;
+padding:0px 0px 0px 25px;
+}.permanent i{
+    color: rgb(91, 145, 91);
+   margin: 0 15px 0 -25px;
+}
+.btn1{
+    width: 180px;
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    background-color:#1f35e0;
+    color: white;
+    font-size: 16px;
+    line-height: 16px;
+    margin:30px 0px 0px;
+    padding:22px 30px;
+    letter-spacing:0.142857px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+}.btn1:hover{
+    background-color:#394cd6;
+}.btn2{
+    width: 180px;
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    color:#1f35e0;
+    background-color: white;
+    font-size: 16px;
+    line-height: 16px;
+    margin:30px 0px 0px 30px;
+    padding:22px 30px;
+    letter-spacing:0.142857px;
+    font-weight: 600;
+    border: 1px solid rgb(230, 224, 224);
+    border-radius: 8px;
+}.formblue{
+    margin-top: 100px;
+   padding: 150px 160px 150px 160px;
+    background-color: #394cd6;
+    display: flex;
+    justify-content: space-around;
+}.formblue h2{
+    color:white;
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 600;
+    margin:0px 0px 15px;
+}.formblue p{
+    width: 380px;
+    color:white;
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}.formblue form{
+    width: 700px;
+}.formblue span{
+    color:rgba(255, 255, 255, 0.6);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    text-align: start;
+}.formblue input{
+    color: white;
+    font-size: 18px;
+    width: 300px;
+    margin: 0 10px 50px 0;
+    border: none;
+    background-color: #394cd6;
+    outline: none;
+    border-bottom: 1px solid rgba(196, 191, 191, 0.6);
+
+}.formblue button{
+    color:rgb(20, 47, 255);
+    background-color: #ffffff;
+    width: 180px;
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    padding:22px 30px;
+    letter-spacing:0.142857px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}.formblue span{
+    margin-right: 255px;
+}.emailspan{
+    margin-left: 16px;
+}#msgspan{
+width: 620px;
+}.contactdetails{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 160px 100px 160px;
+}.contactdetails img{
+    cursor: pointer;
+    height: 58px;
+    width: 163px;
+}.contactdetails div{
+    width: 200px;
+}.contactdetails h3{
+    color:rgb(4,8,15);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 600;
+}.contactdetails p{
+    cursor: pointer;
+    color:rgb(83, 96, 131);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    text-align: left;
+    margin: 30px 0 0 0;
+    
+}.contactdetails i{
+    cursor: pointer;
+    margin-right: 15px;
+}.lastrecruit{
+    width: 600px;
+    margin: 0px 160px 100px 160px;
+    display: flex;
+    justify-content: space-between;
+}.lastrecruit h5{
+    color:rgba(83, 96, 131, 0.8);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    margin:0px 55px 0px 0px;
+}
+.lastrecruit p{
+    margin:0 30px 100px 0;
+    cursor: pointer;
+    color:rgb(83, 96, 131);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+    
 }
