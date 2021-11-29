@@ -243,6 +243,7 @@ letter-spacing: 2px;
     font-weight: bolder;
     border-radius: 8px;
     width: 170px;
+    cursor: pointer;
 }.pinksidebox{
     margin-left: 130px;
     padding: 40px;
@@ -297,6 +298,7 @@ letter-spacing: 2px;
     font-weight: bolder;
     border-radius: 8px;
     width: 170px;
+    cursor: pointer;
 }.pinksidebox h5{
     color:rgb(51, 51, 51);
     font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
@@ -305,7 +307,156 @@ letter-spacing: 2px;
     font-weight: 600;
     text-align: center;
 
+}.keytech{
+    border-bottom-left-radius: 100px;
+    background-color: #f0f5fc;
+    display: flex;
+   /* margin: 80px 160px 0 180px; */
+}.keytech img{
+    margin: 100px 100px 50px 300px;
 }
+.keytech div:nth-child(2){
+    margin: 100px 0px 50px 0px;
+  width: 560px;
+}
+.keytech h3{
+    color:rgb(60, 80, 224);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    line-height:14px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-align: start;
+    margin:95px 0px 0px;
+}.keytech h1{
+    color:rgb(0, 0, 92);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 32px;
+    line-height:44px;
+    font-weight: 600;
+    text-align: start;
+    margin:25px 0;
+}.keytech p{
+    color:rgb(83, 96, 131);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height:28px;
+    font-weight: 400;
+}
+.transform h6{
+    margin: 150px 0 0 150px;
+    color:rgb(60, 80, 224);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height:14px;
+    font-weight: 600;
+}.transform p{
+    margin-left: 150px;
+    color:rgb(0,0,92);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 32px;
+    line-height:44px;
+    font-weight: 600;
+}.transformbox{
+    display: flex;
+    margin: 30px 160px 50px 160px;
+}.transformbox div{
+   width: 300px;
+   border-radius: 10px;
+   padding: 90px 30px 90px 30px;
+   margin-right: 80px;
+}.transformbox div:nth-child(1) >i,.transformbox div:nth-child(1){
+    color: blue;
+    background-color: #EBF3FF;
+  
+}.transformbox div:nth-child(2),.transformbox div:nth-child(2) >i{
+    background-color: #FFF8EB;
+    color: orange;
+}.transformbox div:nth-child(3),.transformbox div:nth-child(3) >i{
+    background-color: #FFF0F0;
+    color: rgb(194, 21, 50);
+}
+.transformbox h3{
+    margin-top: 40px;
+    color:rgb(0,0,92);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 20px;
+    line-height:28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}.transformbox p{
+    color:rgb(50, 50, 92);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height:22px;
+
+}.howework{
+    display: flex;
+    margin: 150px 0px 50px 160px;
+}.howework div:nth-child(1){
+    width: 400px;
+    margin-right: 150px;
+}.howework div:nth-child(2){
+    margin:80px 150px 0 25px;
+}
+.howework h6{
+    margin-top: 40px;
+    color:rgb(60, 80, 224);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height:14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}.howework h1{
+    margin-top: 40px;
+    color:rgb(0, 0, 92);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 32px;
+    line-height:44px;
+    font-weight: 600;
+
+}.howework p{
+    margin-top: 40px;
+    margin-bottom: 35px;
+    color:rgb(83, 96, 131);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height:28px;
+    font-weight: 400;
+}.howework button{
+    background-color: #3c50e0;
+    color: white;
+      padding: 23px 10px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      line-height: 16px;
+      text-align: center;
+      letter-spacing: .142857px;
+      min-width: 175px;
+      cursor: pointer;
+      font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+      font-weight:600;
+}.howework h3{
+    border-radius: 15px;
+    border-bottom: 1px solid rgb(236, 234, 234);
+    margin-bottom: 35px;
+    color:rgb(83, 96, 131);
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 20px;
+    line-height:28px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding:10px 20px 50px 10px;
+    cursor: pointer;
+}.howework span{
+    margin-right: 25px;
+}.howework h3:hover{
+    box-shadow: 0px 2px 3px rgb(230, 221, 221);
+    color: rgb(0, 0, 92);
+}
+
+
 
 
 
