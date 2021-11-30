@@ -14,6 +14,8 @@ background-color: white;
 }a{
     text-decoration: none;
     color: #536083;
+}.getbtn a{
+    color: white;
 }
 
 #navbar img{
