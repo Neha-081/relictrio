@@ -11,6 +11,9 @@ background-color: white;
     justify-content: space-around;
     padding: 10px 129px 20px 200px;
     
+}a{
+    text-decoration: none;
+    color: #536083;
 }
 
 #navbar img{
@@ -647,11 +650,6 @@ margin-left: 390px;
     display: flex;
     margin-top: 150px;
     padding: 150px 0px 50px 160px;
-}.howework div:nth-child(1){
-    width: 400px;
-    margin-right: 150px;
-}.howework div:nth-child(2){
-    margin:80px 150px 0 25px;
 }
 .howework h6{
     margin-top: 40px;
@@ -677,4 +675,97 @@ margin-left: 390px;
     font-size: 16px;
     line-height:28px;
     font-weight: 400;
+}.homeworkgrid{
+    display: grid;
+    grid-template-columns: auto auto;
+}.grid-item{
+    margin: 10px 30px 20px 10px;
+    border-radius: 5px;
+    height: 50px;
+    width: 240px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}.howework>.howework2{
+    width: 400px;
+    margin-right: 100px;
+}.grid-item span{
+    color:#00005C;
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 14px;
+    letter-spacing: 2.5%;
+    font-weight: 400;
+  margin: 0 0 0 10px;
+}.multiple{
+    
+    padding: 150px 0px 100px 150px;
+    background-color: #3c50e0;
+}.multiple h5{
+    color:#8da4ff;
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 14px;
+    line-height:14px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-align: center;
+}.multiple h1{
+    color:#ffffff;
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 32px;
+    line-height:44px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 70px;
+}.multiple h4{
+    border-bottom: 1px solid grey;
+    margin:0 100px 50px 100px;
+}
+.multiple span{
+    color:#8da4ff;
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height:20px;
+    font-weight: 600;
+    margin: 0 100px 150px 0;
+}.fronted{
+    display: flex;
+}.fronted h3{
+    color:#ffffff;
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height:28px;
+    font-weight: 400;
+}.fronted p{
+    color:#ffffff;
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 18px;
+    line-height:30px;
+    letter-spacing: 0.45px;
+    font-weight: 400;
+}
+.homeworkgrid2{
+    display: grid;
+    grid-template-columns: auto auto;
+}.grid-item2{
+    margin: 10px 30px 20px 10px;
+    border-radius: 5px;
+    height: 50px;
+    background-color: white;
+    padding: 7px;
+    font-size: 30px;
+    text-align: center;
+}.grid-item2 span{
+    color:#00005C;
+    font-family:Gilroy-SemiBold, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 14px;
+    letter-spacing: 2.5%;
+    font-weight: 600;
+  margin: 0 0 0 10px;
+}.fronted i{
+    color: rgb(64, 179, 64);
+    margin-right: 15px;
+}.fronted >div{
+    width: 450px;
+    margin-left: 100px;
 }
